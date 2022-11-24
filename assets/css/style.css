@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.cabeza{
+    width: 100%;
+    height: 40px;
+    background-color: salmon;
+    align-items: start;
+}
+.textCommunity{
+    color: blueviolet;
+    text-align:center;
+}
+.Info{
+    display: grid;
+    grid-template-columns: 500px 800px;
+    grid-template-rows: 500px 100px;
+    column-gap: 0px;
+    row-gap: 20px;
+    
+}
+#Nintendo{
+    color: red;
+    background-color: aqua;
+}
+.Image{
+    width: 500px;
+    height: 250px;
+}
+#Sega{
+    color: blue;
+    background-color: blueviolet;
+}
+#Steam{
+    color:white;
+    background-color: blue;
+}
+#Itch{
+    color:white;
+    background-color:salmon;
+}
