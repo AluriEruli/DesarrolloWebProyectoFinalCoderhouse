@@ -36,4 +36,32 @@
 .background{
     background-color: pink;
 }
-
+@media all and (max-width: 768px) {
+    nav {
+        justify-content: space-around;
+    }
+    nav a.logo {
+        flex: 100%;
+    }
+    .map {
+        height: calc(100vh - 96px);
+    }
+}
+@media screen and (min-width: 800px) {
+    .container {
+      margin: 1em 2em;
+    }
+  }
+  html {
+    font-size: 1em;
+  }
+  
+  h1 {
+    font-size: 2rem;
+  }
+  
+  @media (min-width: 1200px) {
+    h1 {
+      font-size: 4rem;
+    }
+  }
