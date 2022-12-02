@@ -13,14 +13,6 @@
     color: blueviolet;
     text-align:center;
 }
-.Info{
-    display: grid;
-    grid-template-columns: 500px 800px;
-    grid-template-rows: 500px 100px;
-    column-gap: 0px;
-    row-gap: 20px;
-    
-}
 #Nintendo{
     color: red;
     background-color: aqua;
@@ -41,3 +33,5 @@
     color:white;
     background-color:salmon;
 }
+
+
