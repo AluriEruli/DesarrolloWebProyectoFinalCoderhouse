@@ -2,39 +2,35 @@
     margin: 0;
     padding: 0;
 }
-@media all and (max-width: 768px) {
-    nav {
-        justify-content: space-around;
+$titleSize: 10rem;
+$textSize: 2rem;
+
+@media (min-width:320px)  { 
+    /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
+        table, p, img {
+        padding-right: 1em;
+        width: 100%;
+        }
+     }
+    @media (min-width:480px)  { 
+    /* smartphones, Android phones, landscape iPhone */ 
     }
-    nav a.logo {
-        flex: 100%;
+    @media (min-width:600px)  { 
+    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
     }
-    .map { 
-        height: calc(100vh - 96px);
+    @media (min-width:801px)  { 
+    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
     }
-}
-@media screen and (min-width: 800px) {
-    .container {
-      margin: 1em 2em;
+    @media (min-width:1025px) { 
+    /* big landscape tablets, laptops, and desktops */ 
     }
-  }
-  html {
-    font-size: 1em;
-  }
-  
-  h1 {
-    font-size: 2rem;
-  }
-  
-  @media (min-width: 1200px) {
-    h1 {
-      font-size: 4rem;
+    @media (min-width:1281px) { 
+    /* hi-res laptops and desktops */ 
     }
-  }
 
 .cabeza{
     width: 100%;
-    height: 40px;
+    height: 100px;
     background-color: salmon;
     align-items: start;
 }
@@ -56,13 +52,15 @@
 .Info{
     background-color: pink;
     p{
-        color:blue
+        color:blue;
+        font-size: $textSize;
     }
     h1{
         color: coral;
+        font-size: $titleSize;
     }
     h2{
-        color:cadetblue
+        font-size: $textSize;
     }
 }
 
