@@ -11,14 +11,19 @@
     <link rel="stylesheet" href="../assets/css/style.css">
 </head>
 <body>
-    <nav class="cabeza">
+    <header> <!--Cabeza de la pagina -->
+      <nav class="cabeza"> <!--Etiqueta donde van los links de navegacion de las distintas paginas del sitio -->
         <a href="../index.html">Inicio</a>
         <a href="../pages/companies.html">Empresas</a>
         <a href="../pages/Stores.html">Tiendas</a>
         <a href="../pages/Nosotros.html">Sobre Nosotros</a>
         <a href="#">Videojuegos</a>
     </nav>
-    <main class = "Info">
+    </header>
+   
+    <main class = "Info"> <!--Contenido principal de la Pagina-->
+      <!--Clases row y col sacadas de bootstrap para darle apariencia de filas y columnas al contenido-->
+      <article><!--Juegos de Nintendo-->
         <h3>Sagas de Juegos de Nintendo"</h3>
         <div class="container text-center">
             <div class="row">
@@ -45,7 +50,9 @@
               <div class="col-12"> Metroid</div>
             </div>
           </div>
-          <h3>Sagas de Juegos de Sega"</h3>
+      </article>
+       <article> <!--Juegos de sega-->
+        <h3>Sagas de Juegos de Sega"</h3>
         <div class="container text-center">
             <div class="row">
               <div class="col">
@@ -70,6 +77,8 @@
               </div>
             </div>
           </div>
+       </article>
+        
     </main>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 </body>
