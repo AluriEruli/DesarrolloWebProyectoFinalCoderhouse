@@ -1,65 +1,58 @@
 * {
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
 @media (min-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   table, p, img {
     padding-right: 1em;
-    width: 100%;
-  }
-}
+    width: 100%; } }
+
 @media (min-width: 480px) {
-  /* smartphones, Android phones, landscape iPhone */
-}
+  /* smartphones, Android phones, landscape iPhone */ }
+
 @media (min-width: 600px) {
-  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */
-}
+  /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ }
+
 @media (min-width: 801px) {
-  /* tablet, landscape iPad, lo-res laptops ands desktops */
-}
+  /* tablet, landscape iPad, lo-res laptops ands desktops */ }
+
 @media (min-width: 1025px) {
-  /* big landscape tablets, laptops, and desktops */
-}
+  /* big landscape tablets, laptops, and desktops */ }
+
 @media (min-width: 1281px) {
-  /* hi-res laptops and desktops */
-}
+  /* hi-res laptops and desktops */ }
+
+.background {
+  background-color: lightblue;
+  text-align: center; }
+
 .cabeza {
   width: 100%;
   height: 100px;
   background-color: salmon;
-  align-items: start;
-}
+  align-items: start; }
 
 .textCommunity {
-  background-color: lightyellow;
-}
-.textCommunity p {
-  color: blueviolet;
-  text-align: center;
-}
-
-.Image {
-  width: 500px;
-  height: 250px;
-}
-
-.background {
   background-color: lightblue;
-}
+  text-align: center; }
+  .textCommunity p {
+    color: blueviolet; }
+
+Image {
+  width: 200px;
+  height: 100px; }
 
 .Info {
-  background-color: pink;
-}
-.Info p {
-  color: blue;
-  font-size: 2rem;
-}
-.Info h1 {
-  color: coral;
-  font-size: 10rem;
-}
-.Info h2 {
-  font-size: 2rem;
-}/*# sourceMappingURL=style.css.map */
+  background-color: lightblue;
+  text-align: center; }
+  .Info p {
+    color: blue;
+    font-size: 2rem;
+    padding: 1%; }
+  .Info h1 {
+    color: coral;
+    font-size: 10rem; }
+  .Info h2 {
+    color: red;
+    font-size: 2rem; }

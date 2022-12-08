@@ -12,21 +12,28 @@ $textSize: 2rem;
         width: 100%;
         }
      }
-    @media (min-width:480px)  { 
-    /* smartphones, Android phones, landscape iPhone */ 
-    }
-    @media (min-width:600px)  { 
-    /* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
-    }
-    @media (min-width:801px)  { 
-    /* tablet, landscape iPad, lo-res laptops ands desktops */ 
-    }
-    @media (min-width:1025px) { 
-    /* big landscape tablets, laptops, and desktops */ 
-    }
-    @media (min-width:1281px) { 
-    /* hi-res laptops and desktops */ 
-    }
+@media (min-width:480px)  { 
+/* smartphones, Android phones, landscape iPhone */ 
+}
+@media (min-width:600px)  { 
+/* portrait tablets, portrait iPad, e-readers (Nook/Kindle), landscape 800x480 phones (Android) */ 
+}
+@media (min-width:801px)  { 
+/* tablet, landscape iPad, lo-res laptops ands desktops */ 
+}
+@media (min-width:1025px) { 
+/* big landscape tablets, laptops, and desktops */ 
+}
+@media (min-width:1281px) { 
+/* hi-res laptops and desktops */ 
+}
+@mixin textSquare { //Texto alineado al centro y con un color de  fondo
+    background-color: lightblue;
+    text-align:center; 
+}
+.background{
+    @include textSquare()
+}
 
 .cabeza{
     width: 100%;
@@ -35,31 +42,29 @@ $textSize: 2rem;
     align-items: start;
 }
 .textCommunity{
-    background-color: lightyellow;
+    @include textSquare();
     p{
         color: blueviolet;
-        text-align:center;
     }
     
 }
-.Image{
-    width: 500px;
-    height: 250px;
-}
-.background{
-    background-color: lightblue;
+Image{
+    width: 200px;
+    height: 100px;
 }
 .Info{
-    background-color: pink;
+    @include textSquare();
     p{
         color:blue;
         font-size: $textSize;
+        padding: 1%;
     }
     h1{
         color: coral;
         font-size: $titleSize;
     }
     h2{
+        color: red;
         font-size: $textSize;
     }
 }
