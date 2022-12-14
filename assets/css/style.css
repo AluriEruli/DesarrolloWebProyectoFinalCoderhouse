@@ -2,6 +2,56 @@
   margin: 0;
   padding: 0; }
 
+.cabeza {
+  width: 100%;
+  height: 100px;
+  background-color: salmon;
+  align-content: center; }
+
+.textCommunity {
+  background-color: lightblue;
+  text-align: center; }
+  .textCommunity p {
+    color: blueviolet; }
+
+.Info {
+  background-color: lightblue;
+  text-align: center; }
+  .Info p {
+    color: blue;
+    font-size: 1.66667rem;
+    padding: 1%; }
+  .Info h1 {
+    font-size: 10rem;
+    color: darkblue; }
+  .Info h2 {
+    color: red;
+    font-size: 10rem; }
+
+.List {
+  background-color: lightblue;
+  text-align: center; }
+  .List h1 {
+    font-size: 5rem;
+    color: coral; }
+  .List h5 {
+    color: darkgreen;
+    font-size: x-large; }
+
+.PageNav {
+  background-color: brown; }
+  .PageNav a {
+    background-color: chocolate; }
+  .PageNav h5 {
+    color: rebeccapurple; }
+
+.NextBotton {
+  margin-left: 47%; }
+
+.Foot {
+  background-color: aquamarine;
+  padding-block: 3em; }
+
 @media (min-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
   table, p, img {
@@ -22,37 +72,3 @@
 
 @media (min-width: 1281px) {
   /* hi-res laptops and desktops */ }
-
-.background {
-  background-color: lightblue;
-  text-align: center; }
-
-.cabeza {
-  width: 100%;
-  height: 100px;
-  background-color: salmon;
-  align-items: start; }
-
-.textCommunity {
-  background-color: lightblue;
-  text-align: center; }
-  .textCommunity p {
-    color: blueviolet; }
-
-Image {
-  width: 200px;
-  height: 100px; }
-
-.Info {
-  background-color: lightblue;
-  text-align: center; }
-  .Info p {
-    color: blue;
-    font-size: 2rem;
-    padding: 1%; }
-  .Info h1 {
-    color: coral;
-    font-size: 10rem; }
-  .Info h2 {
-    color: red;
-    font-size: 2rem; }
