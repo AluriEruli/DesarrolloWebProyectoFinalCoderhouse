@@ -2,19 +2,30 @@
     margin: 0;
     padding: 0;
 }
+@import "navbar";
+@import "formulary";
 $titleSize: 10rem;
 $textSize: 2rem;
 @mixin textSquare { //Texto alineado al centro y con un color de  fondo
     background-color: lightblue;
+    padding: 3%;
     text-align:center; 
 }
-
-.cabeza{
-    width: 100%;
-    height: 100px;
-    background-color: salmon;
-    align-content: center;
+.Home{
+    text-align: center;
+    padding-left: 1%;
+    p{
+        color: darkred;
+        background-color: lightblue;
+        font-size: $textSize/2;
+    }
+    h1{
+        color:  darkgray;
+        background-color: lightpink;
+        font-size: $titleSize/3;
+    }
 }
+
 .textCommunity{
     @include textSquare();
     p{
@@ -45,7 +56,8 @@ $textSize: 2rem;
         color: coral;
     }
     h5{
-        color:darkgreen;
+        color:darkmagenta;
+        background-color: lightseagreen;
         font-size: x-large; 
     }
 }

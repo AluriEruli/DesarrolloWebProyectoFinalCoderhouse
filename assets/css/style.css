@@ -1,21 +1,209 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans");
 * {
   margin: 0;
   padding: 0; }
 
+/* FONT IMPORTED */
+/* Fira Sans */
+#container {
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  /** NAVIGATION BAR */ }
+  #container nav {
+    overflow: hidden;
+    background-color: lightpink;
+    position: fixed;
+    top: 0;
+    width: 100%; }
+    #container nav ul {
+      text-align: center;
+      list-style-type: none;
+      list-style-type: none;
+      margin: 0;
+      padding: 15px; }
+      #container nav ul li {
+        display: inline;
+        font-family: "Fira Sans", sans-serif;
+        font-size: 17px; }
+        #container nav ul li a {
+          color: darkorchid;
+          text-decoration: none;
+          padding: 14px; }
+          #container nav ul li a:hover {
+            background-color: #111; }
+
+/** HEADER */
+.content {
+  text-align: center; }
+
 .cabeza {
   width: 100%;
-  height: 100px;
-  background-color: salmon;
-  align-content: center; }
+  height: 100%;
+  margin-top: 3%;
+  background-color: salmon; }
+  .cabeza button {
+    background-color: aqua;
+    padding: 10%; }
+
+* {
+  padding: 0;
+  margin: 0; }
+
+*, *:before, *:after {
+  box-sizing: border-box; }
+
+body {
+  background: lightyellow;
+  font-family: "Ubuntu", helvetica; }
+
+a {
+  text-decoration: none;
+  color: white;
+  transition: .5s ease; }
+  a:hover {
+    color: #f2f2f2; }
+
+.contenedor-formularios {
+  background: rgba(144, 238, 144, 0.9);
+  padding: 40px;
+  max-width: 600px;
+  margin: 40px auto;
+  border-radius: 4px;
+  box-shadow: 0 4px 10px 4px rgba(144, 238, 144, 0.3); }
+
+.contenedor-tabs {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 40px 0; }
+  .contenedor-tabs:after {
+    content: "";
+    display: table;
+    clear: both; }
+  .contenedor-tabs li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 50%;
+    text-align: center;
+    cursor: pointer;
+    transition: .5s ease; }
+    .contenedor-tabs li a:hover {
+      background: #f2f2f2;
+      color: red; }
+  .contenedor-tabs .active a {
+    background: white;
+    color: red; }
+
+.contenido-tab > div:last-child {
+  display: none; }
+
+label {
+  position: absolute;
+  transform: translateY(6px);
+  left: 13px;
+  color: rgba(255, 0, 0, 0.5);
+  transition: all 0.25s ease;
+  pointer-events: none;
+  font-size: 22px; }
+  label .req {
+    margin: 2px;
+    color: white; }
+
+label.active {
+  transform: translateY(50px);
+  left: 2px;
+  font-size: 14px; }
+  label.active .req {
+    opacity: 0; }
+
+label.highlight {
+  color: red; }
+
+input {
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 5px 10px;
+  background: none;
+  background-image: none;
+  border: 1px solid #a0b3b0;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: red;
+  border-radius: 0;
+  transition: all 0.5s ease;
+  border-radius: 5px; }
+  input:focus {
+    outline: none;
+    border-color: white; }
+
+.contenedor-input {
+  position: relative;
+  margin-bottom: 40px; }
+
+.fila-arriba:after {
+  content: "";
+  display: table;
+  clear: both; }
+
+.fila-arriba div {
+  float: left;
+  width: 48%;
+  margin-right: 4%; }
+  .fila-arriba div:last-child {
+    margin: 0; }
+
+.button {
+  border: 0;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px 0;
+  font-size: 2rem;
+  background: white;
+  color: red;
+  transition: all .5s ease; }
+  .button:hover, .button:focus {
+    background: #f2f2f2; }
+
+.button-block {
+  display: block;
+  width: 100%; }
+
+.forgot {
+  margin-top: -20px;
+  text-align: right;
+  margin-bottom: 20px; }
+
+.Home {
+  text-align: center;
+  padding-left: 1%; }
+  .Home p {
+    color: darkred;
+    background-color: lightblue;
+    font-size: 1rem; }
+  .Home h1 {
+    color: darkgray;
+    background-color: lightpink;
+    font-size: 3.33333rem; }
 
 .textCommunity {
   background-color: lightblue;
+  padding: 3%;
   text-align: center; }
   .textCommunity p {
     color: blueviolet; }
 
 .Info {
   background-color: lightblue;
+  padding: 3%;
   text-align: center; }
   .Info p {
     color: blue;
@@ -30,12 +218,14 @@
 
 .List {
   background-color: lightblue;
+  padding: 3%;
   text-align: center; }
   .List h1 {
     font-size: 5rem;
     color: coral; }
   .List h5 {
-    color: darkgreen;
+    color: darkmagenta;
+    background-color: lightseagreen;
     font-size: x-large; }
 
 .PageNav {
