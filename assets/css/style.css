@@ -192,7 +192,7 @@ input {
   .Home h1 {
     color: darkgray;
     background-color: lightpink;
-    font-size: 3.33333rem; }
+    font-size: 1.66667rem; }
 
 .textCommunity {
   background-color: lightblue;
@@ -207,21 +207,24 @@ input {
   text-align: center; }
   .Info p {
     color: blue;
-    font-size: 1.66667rem;
+    font-size: 1.33333rem;
     padding: 1%; }
   .Info h1 {
     font-size: 10rem;
     color: darkblue; }
   .Info h2 {
     color: red;
-    font-size: 10rem; }
+    font-size: 5rem; }
+  .Info h3 {
+    color: darkviolet;
+    font-size: 5rem; }
 
 .List {
   background-color: lightblue;
   padding: 3%;
   text-align: center; }
   .List h1 {
-    font-size: 5rem;
+    font-size: 2.5rem;
     color: coral; }
   .List h5 {
     color: darkmagenta;

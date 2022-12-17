@@ -4,7 +4,7 @@
 }
 @import "navbar";
 @import "formulary";
-$titleSize: 10rem;
+$titleSize: 5rem;
 $textSize: 2rem;
 @mixin textSquare { //Texto alineado al centro y con un color de  fondo
     background-color: lightblue;
@@ -37,16 +37,20 @@ $textSize: 2rem;
     @include textSquare();
     p{
         color:blue;
-        font-size: $textSize/1.2;
+        font-size: $textSize/1.5;
         padding: 1%;
     }
     h1{
-        font-size: $titleSize;
+        font-size: $titleSize*2;
         color: darkblue;
     }
     h2{
         color: red;
         font-size: $titleSize;
+    }
+    h3{
+        color: darkviolet;
+        font-size: $titleSize
     }
 }
 .List{
