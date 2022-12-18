@@ -26,13 +26,6 @@ $textSize: 2rem;
     }
 }
 
-.textCommunity{
-    @include textSquare();
-    p{
-        color: blueviolet;
-    }
-    
-}
 .Info{
     @include textSquare();
     p{
@@ -65,18 +58,7 @@ $textSize: 2rem;
         font-size: x-large; 
     }
 }
-.PageNav{
-    a{
-        background-color: chocolate;
-    }
-    h5{
-        color: rebeccapurple;
-    }
-    background-color: brown;
-}
-.NextBotton{
-    margin-left: 47%;
-}
+
 .Foot{
     background-color:aquamarine;
     padding-block: 3em;
