@@ -5,13 +5,14 @@
 
 #container {
   width: 100%;
-  height: 100%;
-  display: inline-block;
+  height: 100%; 
+  position: sticky;
+  display:inline-flexbox;
   /** NAVIGATION BAR */
 nav {
     overflow: hidden;
     background-color:lightpink;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%;
     ul {
@@ -43,10 +44,4 @@ nav {
 
 .content {
   text-align: center;
-}
-.cabeza{
-    width: 100%;
-    height: 100%;
-    margin-top: 3%;
-    background-color: salmon;
 }

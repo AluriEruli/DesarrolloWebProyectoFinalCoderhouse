@@ -4,6 +4,7 @@
 }
 @import "navbar";
 @import "formulary";
+@import "bodyStyle";
 $titleSize: 5rem;
 $textSize: 2rem;
 @mixin textSquare { //Texto alineado al centro y con un color de  fondo
@@ -11,20 +12,8 @@ $textSize: 2rem;
     padding: 3%;
     text-align:center; 
 }
-.Home{
-    text-align: center;
-    padding-left: 1%;
-    p{
-        color: darkred;
-        background-color: lightblue;
-        font-size: $textSize/2;
-    }
-    h1{
-        color:  darkgray;
-        background-color: lightpink;
-        font-size: $titleSize/3;
-    }
-}
+
+
 
 .Info{
     @include textSquare();
@@ -62,6 +51,9 @@ $textSize: 2rem;
 .Foot{
     background-color:aquamarine;
     padding-block: 3em;
+    h5{
+        color: darkmagenta;
+    }
 }
 @media (min-width:320px)  { 
     /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */

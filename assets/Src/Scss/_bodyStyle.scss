@@ -1,0 +1,17 @@
+@mixin marginContainer{
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 0%;
+    text-align: center;
+}
+.Home{
+    @include marginContainer(); 
+    background-color: lightgreen;  
+    h1{
+        background-color: lightseagreen;
+    }
+}
+.NotHome{
+    @include marginContainer();
+    background-color: lightcoral ;
+}

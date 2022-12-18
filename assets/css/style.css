@@ -8,12 +8,13 @@
 #container {
   width: 100%;
   height: 100%;
-  display: inline-block;
+  position: sticky;
+  display: inline-flexbox;
   /** NAVIGATION BAR */ }
   #container nav {
     overflow: hidden;
     background-color: lightpink;
-    position: fixed;
+    position: relative;
     top: 0;
     width: 100%; }
     #container nav ul {
@@ -36,15 +37,6 @@
 /** HEADER */
 .content {
   text-align: center; }
-
-.cabeza {
-  width: 100%;
-  height: 100%;
-  margin-top: 3%;
-  background-color: salmon; }
-  .cabeza button {
-    background-color: aqua;
-    padding: 10%; }
 
 * {
   padding: 0;
@@ -183,23 +175,20 @@ input {
   margin-bottom: 20px; }
 
 .Home {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 0%;
   text-align: center;
-  padding-left: 1%; }
-  .Home p {
-    color: darkred;
-    background-color: lightblue;
-    font-size: 1rem; }
+  background-color: lightgreen; }
   .Home h1 {
-    color: darkgray;
-    background-color: lightpink;
-    font-size: 1.66667rem; }
+    background-color: lightseagreen; }
 
-.textCommunity {
-  background-color: lightblue;
-  padding: 3%;
-  text-align: center; }
-  .textCommunity p {
-    color: blueviolet; }
+.NotHome {
+  margin-left: 6%;
+  margin-right: 6%;
+  margin-top: 0%;
+  text-align: center;
+  background-color: lightcoral; }
 
 .Info {
   background-color: lightblue;
@@ -231,19 +220,11 @@ input {
     background-color: lightseagreen;
     font-size: x-large; }
 
-.PageNav {
-  background-color: brown; }
-  .PageNav a {
-    background-color: chocolate; }
-  .PageNav h5 {
-    color: rebeccapurple; }
-
-.NextBotton {
-  margin-left: 47%; }
-
 .Foot {
   background-color: aquamarine;
   padding-block: 3em; }
+  .Foot h5 {
+    color: darkmagenta; }
 
 @media (min-width: 320px) {
   /* smartphones, portrait iPhone, portrait 480x320 phones (Android) */
